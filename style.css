@@ -1,0 +1,324 @@
+/* 
+Theme Name: Kety
+Text Domain: I'm Kety
+Version: 5.2
+Description: Custom Theme No.432
+Author: Katarina
+*/
+
+.h1,
+h1 {
+    font-size: 3.5rem;
+    padding: 30px;
+    color: black;
+}
+
+.big-title {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#load-more-container {
+    text-align: center;
+    margin: auto;
+    text-align: justify;
+}
+
+.home-body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+h2.title-homework {
+    font-size: 2em;
+    color: #ffc0bc;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+h2.title-myth {
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+p.text-myth {
+    color: black;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+p.text-homework {
+    color: black;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.wp-block-column {
+    padding: 0px;
+}
+
+.wp-image-102 {
+    width: 100%;
+}
+
+.has-text-align-left {
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+
+.wp-block-latest-posts__post-excerpt {
+    text-align: left;
+    color: black;
+}
+
+.centered {
+    margin: 0 auto;
+    padding: 0.1em;
+}
+
+.load-button {
+    text-align: center;
+    padding: 20px;
+}
+
+.pink-load-button {
+    background-color: #ffc0bc;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    width: 150px;
+    margin: auto;
+}
+
+.main-area {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+
+@media screen and (min-width: 52em) {
+    .centered {
+        max-width: 52em;
+    }
+}
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+    box-sizing: flex;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Header styles minus menu --------------------------------------------------------------*/
+
+.masthead {
+    background: #e74c3c;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.site-title {
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+
+@media screen and (min-width: 44.44em) {
+    .site-title {
+        font-size: 2em;
+    }
+    h2.title-homework {
+        font-size: 1.5em;
+    }
+    h2.title-myth {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 50em) {
+    .site-title {
+        font-size: 2.5em;
+    }
+}
+
+.site-title a {
+    color: hsl(5, 45%, 95%);
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    text-decoration: underline;
+}
+
+
+/* Card Based Layout - Base styles */
+
+.site-title {
+    color: white;
+}
+
+.card {
+    background: white;
+    margin-bottom: 2em;
+}
+
+.card h2 {
+    text-align: justify;
+    letter-spacing: normal;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+}
+
+.card a:hover {
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.card-content {
+    padding: 1.5;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    text-align: left;
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+}
+
+.card-content p {
+    font-size: 95%;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Flexbox styles */
+
+@media screen and (min-width: 40em) {
+    .cards {
+        margin-top: -1em;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card {
+        margin-bottom: 1em;
+        display: flex;
+        flex: 0 1 calc(50% - 0.5em);
+        /* width: calc(50% - 1em); */
+    }
+}
+
+
+/* mq 40em*/
+
+@media screen and (min-width: 60em) {
+    .cards {
+        margin-top: inherit;
+    }
+    .card {
+        margin-bottom: 2em;
+        display: flex;
+        flex: 0 1 calc(25% - 1.1em);
+        /* width: calc(33% - 1em); */
+    }
+}
+
+
+/* mq 60em*/
+
+
+/* FOOTER */
+
+.main-footer {
+    background-color: white;
+    color: grey;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-footer__copyright {
+    float: right;
+    font-size: 1.2em;
+}
+
+.main-footer__container i {
+    color: #ffc0bc;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+/* Single page */
+
+.single-text {
+    color: black;
+    font-size: 1 em;
+    text-align: justify;
+}
+
+.has-text-align-left-single {
+    color: black;
+    font-size: 1 em;
+    text-align: left;
+}
+
+.has-text-align-center {
+    color: #ffc0bc;
+    font-size: 1 em;
+    text-align: center;
+}
+
+.title-single {
+    text-align: left;
+    color: black;
+}
+
+.main-title-single {
+    margin: auto;
+    width: 100%;
+    height: 200%;
+}
+
+.wp-block-cover {
+    margin: auto;
+    width: 100%;
+    height: 200%;
+}
+
+.single-load-more {
+    margin: 0 auto;
+    padding: 0.1em;
+    background-color: darkgray;
+}
+
+time.wp-block-latest-posts__post-date {
+    text-align: left;
+}
+
+.has-text-align-center-moremagic {
+    color: #ffc0bc;
+    font-weight: normal;
+}

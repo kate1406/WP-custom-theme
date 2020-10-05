@@ -10,11 +10,22 @@ Author: Katarina
 h1 {
     font-size: 3.5rem;
     padding: 30px;
-    color: black;
+    color: #000000;
+}
+
+.article-center {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#main-body {
+    width: 100%;
+    margin: auto;
 }
 
 .big-title {
-    color: black;
+    color: #000000;
     font-weight: bold;
     text-align: center;
 }
@@ -26,7 +37,7 @@ h1 {
 }
 
 .home-body {
-    background-color: white;
+    background-color: #ffffff;
     font-family: sans-serif;
 }
 
@@ -39,19 +50,19 @@ h2.title-homework {
 
 h2.title-myth {
     font-size: 2em;
-    color: black;
+    color: #000000;
     font-weight: bold;
     letter-spacing: 0.2em;
 }
 
 p.text-myth {
-    color: black;
+    color: #000000;
     font-size: 1.2em;
     text-align: justify;
 }
 
 p.text-homework {
-    color: black;
+    color: #000000;
     font-size: 1.2em;
     text-align: justify;
 }
@@ -66,7 +77,7 @@ p.text-homework {
 
 .has-text-align-left {
     font-size: 2em;
-    color: black;
+    color: #000000;
     font-weight: bold;
     padding-top: 30px;
     padding-left: 0px;
@@ -74,7 +85,7 @@ p.text-homework {
 
 .wp-block-latest-posts__post-excerpt {
     text-align: left;
-    color: black;
+    color: #000000;
 }
 
 .centered {
@@ -91,7 +102,7 @@ p.text-homework {
     background-color: #ffc0bc;
     border-radius: 50px;
     padding: 10px;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     border-style: none;
     width: 150px;
@@ -112,19 +123,16 @@ p.text-homework {
 
 body {
     font-family: sans-serif;
-    background-color: white;
+    background-color: #ffffff;
     box-sizing: flex;
 }
 
 
-/* -------------------------------------------------------------- */
-
-
-/* Header styles minus menu --------------------------------------------------------------*/
+/* Header styles minus menu */
 
 .masthead {
     background: #e74c3c;
-    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    box-shadow: 3px 3px 8px #B3B3B3;
 }
 
 .site-title {
@@ -133,7 +141,7 @@ body {
     font-size: 2em;
     font-weight: 300;
     text-align: center;
-    color: black;
+    color: #000000;
 }
 
 @media screen and (min-width: 44.44em) {
@@ -155,7 +163,7 @@ body {
 }
 
 .site-title a {
-    color: hsl(5, 45%, 95%);
+    color: #F8EDED;
     text-decoration: none;
 }
 
@@ -167,11 +175,11 @@ body {
 /* Card Based Layout - Base styles */
 
 .site-title {
-    color: white;
+    color: #ffffff;
 }
 
 .card {
-    background: white;
+    background: #ffffff;
     margin-bottom: 2em;
 }
 
@@ -181,12 +189,12 @@ body {
 }
 
 .card a {
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 
 .card a:hover {
-    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    box-shadow: 3px 3px 8px #B3B3B3;
 }
 
 .card-content {
@@ -198,7 +206,7 @@ body {
     margin-bottom: 0.2em;
     text-align: left;
     font-size: 1.3em;
-    color: black;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -226,12 +234,8 @@ img {
         margin-bottom: 1em;
         display: flex;
         flex: 0 1 calc(50% - 0.5em);
-        /* width: calc(50% - 1em); */
     }
 }
-
-
-/* mq 40em*/
 
 @media screen and (min-width: 60em) {
     .cards {
@@ -241,19 +245,15 @@ img {
         margin-bottom: 2em;
         display: flex;
         flex: 0 1 calc(25% - 1.1em);
-        /* width: calc(33% - 1em); */
     }
 }
-
-
-/* mq 60em*/
 
 
 /* FOOTER */
 
 .main-footer {
-    background-color: white;
-    color: grey;
+    background-color: #ffffff;
+    color: #808080;
     font-size: 1.2em;
     padding: 10px;
     text-align: center;
@@ -274,26 +274,26 @@ img {
 /* Single page */
 
 .single-text {
-    color: black;
-    font-size: 1 em;
+    color: #000000;
+    font-size: 1em;
     text-align: justify;
 }
 
 .has-text-align-left-single {
-    color: black;
-    font-size: 1 em;
+    color: #000000;
+    font-size: 1em;
     text-align: left;
 }
 
 .has-text-align-center {
     color: #ffc0bc;
-    font-size: 1 em;
+    font-size: 1em;
     text-align: center;
 }
 
 .title-single {
     text-align: left;
-    color: black;
+    color: #000000;
 }
 
 .main-title-single {
@@ -311,7 +311,7 @@ img {
 .single-load-more {
     margin: 0 auto;
     padding: 0.1em;
-    background-color: darkgray;
+    background-color: #A9A9A9;
 }
 
 time.wp-block-latest-posts__post-date {

@@ -7,17 +7,12 @@ wp_head();
 ?>
 
 </head>
+<body id="main-body">
 
-<!-- Dohvacam Post/Page Title -->
-<!-- <h1><?php the_title()?></h1> -->
-<body id="main-body" style="width:100%; margin:auto;">
-
-<!-- Ovo je MENU! -->
 <?php
 ?>
 <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
   <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,8 +32,6 @@ wp_head();
     </div>
 </nav>
 
-
-<!-- Dinamicki dodajem "Title" -->
 <h1 class="big-title"><?php the_title()?></h1>
 
 
